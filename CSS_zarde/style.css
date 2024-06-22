@@ -1,0 +1,222 @@
+
+.page-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-indent: 1em;
+}
+
+header h1, header h2, header h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+
+header h3 {
+    font-size: 1.5rem;
+}
+
+.intro, .main {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+    font-size: 0.8em;
+}
+
+/* Diretrizes gerais */
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 20px;
+}
+
+header h1 {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+/* Menus */
+.sidebar nav ul {
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.sidebar nav ul li {
+    margin-bottom: 1em; 
+    text-align: center; 
+}
+
+/* Rodapé */
+footer {
+    background-color: #fffafa; 
+    color: #fff; 
+    padding: 20px;
+    margin-top: 4%; 
+}
+
+
+.page-wrapper {
+    position: relative;
+}
+
+
+.explanation {
+    width: 60%; 
+    margin-right: 35%; 
+    border-right: 1px solid #1f295c; 
+    padding-right: 2%; 
+}
+
+/* Menu de designs */
+.design-selection {
+    position: absolute; 
+    top: 560px; 
+    right: 0; 
+    width: 35%; 
+    padding: 0 2%; 
+}
+
+
+.benefits, .participation {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.benefits a, .participation a {
+    flex: 1; 
+    text-align: center; 
+}
+
+
+.benefits {
+    align-items: center;
+}
+
+.benefits h3 {
+    flex: 30%; 
+}
+
+.benefits p {
+    flex: 70%; 
+}
+
+
+.participation {
+    align-items: center; 
+}
+
+.participation h3 {
+    flex: 1; 
+}
+
+.participation p {
+    flex: 1; 
+}
+
+
+.benefits, .participation {
+    border-top: 1px solid #000; 
+    border-bottom: 1px solid #000; 
+}
+
+
+.participation {
+    border-top: none; 
+}
+
+a {
+    color: #c61212; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #8266ff; 
+}
+
+a:visited {
+    font-weight: normal; 
+
+
+.main p:first-of-type:first-letter {
+    font-size: 3em; 
+    font-family: "Times New Roman", serif; 
+    float: left; 
+}
+
+/
+.design-selection nav ul li {
+    border-top: 1px solid #ccc; 
+}
+
+.design-selection nav ul li:last-child {
+    border-bottom: 1px solid #ccc; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: static;
+        width: auto;
+        border-right: none; 
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    header {
+        height: auto; 
+    }
+
+    
+    .summary p,
+    .preamble p {
+        text-indent: 0;
+    }
+}
+
+
+@media print {
+    header {
+        background-color: #fff; 
+        color: #000; 
+        padding: 20px; 
+    }
+
+    
+    body {
+        font-family: Times, serif;
+    }
+}
+}

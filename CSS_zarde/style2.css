@@ -1,0 +1,39 @@
+.page-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-indent: 1em;
+}
+
+header h1, header h2, header h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+
+header h3 {
+    font-size: 1.5rem;
+}
+
+.intro, .main {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+    font-size: 0.8em;
+}
